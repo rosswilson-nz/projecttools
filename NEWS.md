@@ -1,3 +1,7 @@
+# cmor.tools 1.9.0
+
+* Update `CMORprojects` to 0.9.0
+
 # cmor.tools 1.8.0
 
 * Update `CMORplots` to 0.2.0
