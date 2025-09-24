@@ -1,4 +1,4 @@
 library(testthat)
-library(cmor.tools)
+library(projecttools)
 
-test_check("cmor.tools")
+test_check("projecttools")

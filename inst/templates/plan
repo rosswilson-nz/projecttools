@@ -1,9 +1,0 @@
-# This file defines the `drake_plan` describing the project analysis plan
-
-plan <- drake_plan(
-# 	data = read_raw_data(),
-# 	clean = process_data(),
-# 	results = analyse_data(),
-# 	output = render_manuscript(knitr_in(!!file_output_rmd), file_out(!!file_output_docx),
-# 														 file_in(!!file_word_styles), file_in(!!file_csl), file_in(!!file_bib))
-)

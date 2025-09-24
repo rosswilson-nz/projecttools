@@ -1,39 +1,37 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# cmor.tools
+# projecttools
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of the CMOR Tools ecosystem is to provide standardised tools to
-initialise a research project folder, undertake analysis, and generate
-output reports (journal manuscripts, etc.) for research projects
-undertaken at CMOR. This package installs and loads all packages in the
-ecosystem.
+The goal of the `projecttools` ecosystem is to provide standardised tools to
+initialise a research project folder, undertake analysis, and generate output
+reports (journal manuscripts, etc.) for research projects undertaken at CMOR.
+This package installs and loads all packages in the ecosystem.
 
 ## Installation
 
-You can install cmor.tools from [GitHub](https://github.com) with:
+You can install **`projecttools`** from [GitHub](https://github.com) with:
 
 ``` r
-#install.packages("remotes")
-remotes::install_github("uo-cmor/cmor.tools")
+#install.packages("pak")
+pak::pak("rosswilson-nz/projecttools")
 ```
 
 ## Packages
 
-`library(cmor.tools)` will load the CMOR Tools packages:
+`library(projecttools)` will load the `projecttools` packages:
 
--   [`formattr`](https://github.com/uo-cmor/formattr): Format numbers &
+-   [`formattr`](https://github.com/rosswilson-nz/formattr): Format numbers &
     descriptive statistics nicely for output reports;
--   [`CMORprojects`](https://github.com/uo-cmor/CMORprojects): Data
-    analysis project workflow tools;
--   [`regtools`](https://github.com/uo-cmor/regtools): Functions for the
-    analysis of regression models;
--   [`CMORplots`](https://github.com/uo-cmor/CMORplots): `ggplot` themes
-    and colour palettes for figure formatting;
--   [`SF6Dvalues`](https://github.com/uo-cmor/SF6Dvalues): Calculate
-    SF-6D health utility values from SF-12/SF-36 questionnaires;
--   [`cea`](https://github.com/uo-cmor/cea): Tools for trial-based
-    cost-effectiveness analyses.
+-   [`projectsetup`](https://github.com/rosswilson-nz/projectsetup): Data
+    analysis project workflow setup tools;
+-   [`pipelinetools`](https://github.com/rosswilson-nz/pipelinetools): Functions
+    used in setting up [targets](https://github.com/ropensci/targets) pipelines.
+-   [`plottools`](https://github.com/rosswilson-nz/plottools):
+    [ggplot2](https://github.com/tidyverse/ggplot2) themes and colour palettes
+    for figure formatting, and additional geoms;
+-   [`ttables`](https://github.com/rosswilson-nz/ttables): Create tables in
+    Typst format for inclusion in output documents.

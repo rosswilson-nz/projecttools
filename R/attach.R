@@ -1,4 +1,4 @@
-pkgs <- c("formattr", "CMORprojects", "regtools", "CMORplots", "SF6Dvalues", "cea", "ttables")
+pkgs <- c("formattr", "projectsetup", "pipelinetools", "plottools", "ttables")
 
 unloaded <- function() {
 	search <- paste0("package:", pkgs)
