@@ -1,6 +1,6 @@
 Package: projecttools
 Title: Tools for Initialising and Conducting Research Projects
-Version: 1.0.0
+Version: 1.1.0
 Authors@R:
     person(given = "Ross",
            family = "Wilson",
@@ -18,7 +18,7 @@ LazyData: true
 RoxygenNote: 7.3.2
 Imports: 
     formattr (>= 1.0.0),
-    projectsetup (>= 1.0.0),
+    projectsetup (>= 1.1.0),
     pipelinetools (>= 1.0.0),
     plottools (>= 1.0.0),
     ttables (>= 1.0.0)
